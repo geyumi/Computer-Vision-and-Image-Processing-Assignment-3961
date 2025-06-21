@@ -19,7 +19,7 @@ def block_average(image_path, block_size):
     cv2.imwrite(filename, output)
     print(f'Saved: {filename}')
 
-# Example usage
+
 image_path = 'input_image.jpg'
 for block_size in [3, 5, 7]:
     block_average(image_path, block_size)

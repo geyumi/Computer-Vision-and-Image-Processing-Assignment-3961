@@ -14,7 +14,7 @@ def rotate_image(image_path, angle):
     cv2.imwrite(filename, rotated)
     print(f'Saved: {filename}')
 
-# Example usage
+
 image_path = 'input_image.jpg'
 for angle in [45, 90]:
     rotate_image(image_path, angle)
