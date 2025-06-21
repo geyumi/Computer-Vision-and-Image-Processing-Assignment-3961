@@ -13,7 +13,7 @@ def reduce_intensity_levels(image_path, levels):
     cv2.imwrite(filename, reduced_img)
     print(f'Saved: {filename}')
 
-# Example usage
+
 image_path = 'input_image.jpg'
 for levels in [2, 4, 8, 16]:
     reduce_intensity_levels(image_path, levels)
