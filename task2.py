@@ -11,7 +11,7 @@ def apply_average_blur(image_path, kernel_sizes):
         cv2.imwrite(filename, blurred)
         print(f'Saved: {filename}')
 
-# Example usage
+
 image_path = 'input_image.jpg'
 kernel_sizes = [3, 10, 20]
 apply_average_blur(image_path, kernel_sizes)
